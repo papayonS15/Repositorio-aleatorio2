@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #4a148c;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.card {
+  background: #f3e5f5;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(174, 104, 190, 0.2);
+  width: 100%;
+  max-width: 480px;
+  text-align: center;
+  border: 1px solid #ce93d8;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #6a1b9a;
+}
+
+select, button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid #ba68c8;
+}
+
+select {
+  background-color: #fff;
+  color: #4a148c;
+}
+
+button {
+  background: #ab47bc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #8e24aa;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #ede7f6;
+  font-weight: bold;
+}
+
+.message.loading {
+  background: #e1bee7;
+}
+
+.message.error {
+  background: #f8bbd0;
+  color: #880e4f;
+}
+
+.retry-button {
+  margin-top: 10px;
+  background: #d81b60;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.repo-card {
+  margin-top: 20px;
+  text-align: left;
+  border: 1px solid #ce93d8;
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px;
+}
+
+.repo-card h2 {
+  margin: 0;
+  color: #6a1b9a;
+}
+
+.repo-card a {
+  color: #8e24aa;
+  text-decoration: none;
+}
+
+.repo-card p {
+  margin: 10px 0;
+  color: #4a148c;
+}
+
+.repo-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.9em;
+  color: #6a1b9a;
+}
+
+.refresh {
+  margin-top: 15px;
+  background: #8e24aa;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.language-info {
+  margin-top: 15px;
+  background: #f3e5f5;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 0.95em;
+  color: #4a148c;
+}
